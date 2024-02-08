@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family:roboto ;
+}
+body{
+    font-family:roboto ;
+ 
+}
+ #home{
+    background-image: url(../hero\ img.jpg);
+    height: 720px;
+
+ }
+#home .background{
+    background-color: rgba(0, 0, 0, 0.811);
+    background-size: cover;
+    height: 720px;
+   
+}
+.dif{
+    color: #FF305B;
+    float: left;
+  margin-left: 185px;
+    font-size: 24px;
+    padding-top: 18px;
+    font-family: roboto;
+    font-weight: 500;
+}
+#home .ani{
+    color: white;
+    float:right ;
+    padding: 10px;
+    margin-right: 180px;
+    margin-top: 12px;
+}
+
+a{
+    margin: 18px 10px;
+    font-size: 16px;
+    font-family:roboto ;
+    font-weight: 300;
+}
+a:hover{
+    color: #FF305B;
+}
+#home .clear{
+    clear: both;
+}
+.ali{
+    text-align: center;
+    margin: 250px;
+}
+.ali p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26.4px;
+    color: white;
+}
+h1{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77px;
+    color: #FF305B;
+    font-family: sans-serif;
+}
+#about{
+    height: 655px;
+}
+#about .img-txt{
+    width: 360px;
+    height: 440px;
+    box-sizing: border-box;
+    border: 8px solid #555555;
+    border-radius: 5px;
+    margin: 100px;
+    float: left;
+    position: relative;
+}
+#about img{
+    position: absolute;
+    left: 15px;
+    top:15px
+
+}
+hr{
+    row-gap: 1px;
+}
+#about .txt{
+ padding-top: 100px;
+ font-size: 16px;
+ line-height: 30px;
+ padding-bottom: 30px;
+}
+#about .lilk ul{
+    list-style:none;
+float: left;}
+#about .lilk{
+   float: left;
+   margin-right: 90px;
+   line-height: 30px;
+   font-size: 18px;
+   font-weight: 400;
+   margin-top: 0px;
+}
+#about .lilkj{
+margin-left: 30px;
+line-height: 30px;
+font-size: 18px;
+font-weight: 400;
+margin-top: 25px;
+}
+span{
+    color: #FF305B;
+}
+#about button{
+   background-color: #FF305B;
+   color: white;
+   padding: 10px 24px;
+   border: 2px solid white;
+   border-radius: 8px;
+   margin-top: 15px;
+   margin-right: 10px;
+   width: 160px;
+   height: 50px;
+}
+#about .lok{
+    margin-top: 15px;
+}
+#Services{
+    height: 455px;
+     background-color: #F1F1F1;
+     text-align: center;
+}
+#Services h2{
+    font-size: 40px;
+    /* line-height: 30px; */
+    text-decoration: underline #FF305B 1px;
+   padding-top: 65px;
+
+}
+#Services div{
+   display: inline-block;
+   width: 15%;
+  line-height: 25px;
+  margin-top: 45px;
+}
+#Services div img{
+    background-color: #f1f1f100;
+}
+#Services div:hover{
+    background-color: white;
+    transform: scale(1.2);
+}
+#Portfolio{
+    height: 795px;
+    text-align: center;
+}
+#Portfolio h2{
+    font-size: 40px;
+    line-height: 50px;
+    text-decoration: underline #FF305B 1px;
+    margin-block: 50px;
+    margin-top: 100px;
+}
+#Portfolio p{
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+#Portfolio img{
+    width: 360px;
+    height: 270px;
+    margin:15px;
+}
+.lki{
+    height: 300px;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+.lki div{
+    display: inline-block;
+    width: 15%;
+    margin: 80px 0;
+}
+.lki img{
+    width: 40px;
+}
+#feedback{
+    height: 500.5px;
+    text-align: center;
+}
+#feedback h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin:110px 0 50px 0;
+    text-decoration: underline #FF305B 1px;
+}
+#feedback img{
+    width: 750px;
+    border: #F1F1F1 1px;
+    border-radius: 2px;
+}
+#Blog{
+    height: 750px;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+#Blog h2{
+    font-size: 40px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    border: #F1F1F1 solid 1px;
+    text-decoration:underline #FF305B 1px;
+    /* margin-top: 100px; */
+}
+#Blog div{
+    display: inline-block;
+    width: 24%;
+    background-color: white;
+    text-align: left;
+    margin-right: 25px;
+
+}
+#Blog div img{
+    width: 100%;
+}
+#Blog div P{
+    line-height: 25px;
+    font-weight: 400;
+    margin-block: 10px;
+    padding-left: 15px;
+}
+#Blog div h3{
+    font-size: 19px;
+    font-weight: 700;
+    margin-block: 15px;
+    padding-left: 15px;
+}
+input{
+    width: 360px;
+    height: 40px;
+    border: #F1F1F1 solid 2px;
+    border-radius: 4px;
+    margin-left:25%;
+    margin-block: 10px;
+}
+.jih{
+    margin-left: 24px;
+}
+#Contact-us h2{
+font-size: 40px;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 50px;
+text-decoration: underline #FF305B 1px;
+}
+#Contact-us button{
+    margin-left: 25%;
+    width: 144px;
+    height: 40px;
+    background-color: #FF305B;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+}
+#footer{
+    height: 165px;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    margin-top: 50px;
+}
+#footer img{
+    margin-top: 50px;
+    width: 180px;
+}
